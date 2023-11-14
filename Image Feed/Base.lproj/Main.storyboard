@@ -24,13 +24,13 @@
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="kdP-jU-Qiq" firstAttribute="leading" secondItem="hvq-h1-K4s" secondAttribute="leading" id="9TS-Uv-Zxv"/>
-                                    <constraint firstAttribute="trailing" secondItem="kdP-jU-Qiq" secondAttribute="trailing" id="Hks-4a-b03"/>
-                                    <constraint firstAttribute="bottom" secondItem="kdP-jU-Qiq" secondAttribute="bottom" id="MiF-2a-GyF"/>
-                                    <constraint firstItem="kdP-jU-Qiq" firstAttribute="top" secondItem="hvq-h1-K4s" secondAttribute="top" id="rnC-ZE-0gw"/>
+                                    <constraint firstItem="kdP-jU-Qiq" firstAttribute="top" secondItem="hvq-h1-K4s" secondAttribute="top" id="44R-Ry-YuI"/>
+                                    <constraint firstAttribute="bottom" secondItem="kdP-jU-Qiq" secondAttribute="bottom" id="Lbf-0c-KvI"/>
+                                    <constraint firstAttribute="trailing" secondItem="kdP-jU-Qiq" secondAttribute="trailing" id="LjH-Jf-FIh"/>
+                                    <constraint firstItem="kdP-jU-Qiq" firstAttribute="leading" secondItem="hvq-h1-K4s" secondAttribute="leading" id="u0C-r1-U0a"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="3Fq-dV-sYm"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="iK2-Xx-vak"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="IrU-0k-oFg"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="iAc-cc-pX8"/>
                                 <connections>
                                     <outlet property="delegate" destination="k8F-Wy-DVe" id="hJ0-4J-x6N"/>
                                 </connections>
