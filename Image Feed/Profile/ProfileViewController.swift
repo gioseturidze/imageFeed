@@ -51,8 +51,11 @@ final class ProfileViewController: UIViewController {
     
     @objc
     private func logoutButtonAction() {
-        userLabel?.removeFromSuperview()
-        userLabel = nil
+        for view in view.subviews {
+                    if view is UILabel {
+                        view.removeFromSuperview()
+                    }
+                }
     }
     
     
