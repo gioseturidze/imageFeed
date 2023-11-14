@@ -8,9 +8,9 @@ final class SingleImageViewController: UIViewController {
             rescaleAndCenterImageInScrollView(image: image)
         }
     }
-
+    
     @IBOutlet private var imageView: UIImageView!
-
+    
     @IBOutlet weak var scrollView: UIScrollView!
     
     override func viewDidLoad() {
@@ -25,7 +25,7 @@ final class SingleImageViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-
+    
     @IBAction func didTapShareButton(_ sender: Any) {
         let share = UIActivityViewController(
             activityItems: [imageView.image ?? UIImage()],
