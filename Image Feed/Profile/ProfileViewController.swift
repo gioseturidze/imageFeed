@@ -2,6 +2,8 @@ import UIKit
 
 final class ProfileViewController: UIViewController {
     
+    private let oauth2TokenStorage = OAuth2TokenStorage()
+    
     
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
@@ -84,5 +86,9 @@ final class ProfileViewController: UIViewController {
     }
     
     @objc
-    private func logoutButtonAction() {}
+    private func logoutButtonAction() {
+        if let token = oauth2TokenStorage.token {
+            oauth2TokenStorage.token = nil
+        }
+    }
 }
